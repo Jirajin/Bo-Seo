@@ -44,7 +44,7 @@ async function generate() {
 
   // Construct the prompt using template literals and string interpolation
     const prompt = `You are a world champion debater.
-    Structure of an argument: 1. Statement. 2. Reasons why the statement is true(as many reasons as possible). 3. Impacts of statement (why the statement is important).
+    Structure of an argument: 1. Statement. 2. Reasons why the statement is true(as many reasons as possible). 3. Impacts of statement (why the statement is important) 4. Examples(if available).
     Structure of a statement: "The action within the motion" leads to or will lead to or has lead to "The conclusion or end point Of the argument".
     Example statements of arguments for the motion: This House Will legalize all drugs:
     1 - Legalizing all drugs will lead to more quality drugs.

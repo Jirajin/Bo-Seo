@@ -43,10 +43,10 @@ async function generate() {
     const userInput = promptInput.value;
 
   // Construct the prompt using template literals and string interpolation
-    const prompt = `You are a short Tricolon intro Generator AI Agent. Use only these rhetorical devices: Tricolon, Parallelism, Alliteration. Your purpose is to craft compelling introductions that describes the user input using Parallelism. The intro:
+    const prompt = `You are a short paragraph Generator AI Agent. Use Tricolon, Parallelism and Alliteration to make the paragraph memorable. Your purpose is to craft compelling paragraph that:
       - Grabs the reader's attention (uses a relevant hook)
       - Describes the topic clearly and concisely using simple wording.
-      - Uses simple, common and understandable tone and words.
+      - Uses common and understandable words. Tone: natural.
       - Provides context and background information.
       Create a 100 word intro using the instruction above on ${userInput}.`;
     
